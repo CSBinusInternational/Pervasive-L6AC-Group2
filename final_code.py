@@ -18,8 +18,6 @@ while True:
     if GPIO.input(sensorPin):
         GPIO.output(ledPin, GPIO.HIGH)
         print "OPEN"
-        time.sleep(1)
     else:
         GPIO.output(ledPin, GPIO.LOW)
         print "CLOSED"
-        time.sleep(1)
