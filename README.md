@@ -1,28 +1,29 @@
 # Pervasive-L6AC-Group2
 
-Topic/title: Car Security Sensor
+Title: Pervasive Alarm Security System (P.A.S.S)
 
-Scenario: When people park their cars on the parking lots even on the roadside, something unexpected could happen to their cars. Either it is burglary, pranks, unintentional car bumps, or other unwanted situations which can affect their cars' state. However, the owners would not know if something is done to their cars, and will only know about it later when they get there.
+Scenario: When people leave their valuables somewhere inside a room, either it is in a familiar or unfamiliar condition, something unexpected could happen to their belongings. Either it is burglary, pranks, or other unwanted situations which can affect their valuables’ state.
 
-Problem: People need to have a way to feel at ease and stay alert at the same time while leaving their cars at stationary state anywhere.
+Problem:  People need to have a way to feel at ease and stay alert at the same time while leaving their valuables inside a closed room, especially one that has doors. 
 
-Design: To solve this problem that we have, we are going to make a camera surveillance prototype which can take a picture if there is a vibration detected to the car. Then this picture will be forwarded to user, so the user will be notified with some information if something happened with his car. Initial design is attached and may change as we learn more about our project.
+Design: The design of the system will enable user or owner to get notified if there was something unexpected happen to the room (for example, people managed to get in even though the door was locked). We are using magnetic sensor attached to the door to detect whether the door is opened/closed, camera to take images of the door condition should it change, buzzer to sound and Raspberry Pi module to control all the modules to be joined together.
 
-Hardware needed (other hardware components might be added as we learn more about our project):
+Hardware needed:
 1 Raspberry Pi 3 Model B
-1 Raspberry Pi 3 Model B Case
 1 Pi Noir Camera Version 2
-1 Converter cable HDMI (Male) to VGA (Female)
-1 Breadboard
-Male-female wire
-1 Vibration sensor SW420
+1 Magnetic sensor
+1 Buzzer (Model YL-44)
+Male to Male cable jumpers (as needed)
+Female to Female cable jumpers (as needed)
+1 Converter cable HDMI (Male) to VGA (Female) (For setup)
+1 Raspberry Pi 3 Model B Case
 
-Setting: We will connect Raspberry Pi to Pi Noir camera and vibration sensor. If the sensor was triggered by vibration or shock, the camera would capture and send a picture to the owner’s smartphone. 
+Setting: We will connect Raspberry Pi to Pi Noir camera, magnetic sensors, and the buzzer. If the magnetic sensors are triggered by movements resulting in distance change between them (in this case, opening the door from its closed/initial state), this event will then make the buzzer to sound and trigger the camera to take an image. The sound will notify people around the area, while the image taken will be sent to the owner’s e-mail address, notifying him/her that the door to the room has been opened. 
 
 Framework and job description: 
 1.	Sensing – Matthew
-Setting Raspberry, sensor, and camera so they can connect and work properly
+Configure sensors, set the connections for all modules
 2.	Gateway – Adam
-Setting Raspberry, sensor, and camera so they can connect and work properly
+Configure camera and buzzer, set the connections for all modules
 3.	Service – Claudia
-This layer involves figuring out how the data is gathered from all layers, stored and/or passed to the user and provide data insights.
+Configure sending email and set the connections for all modules
