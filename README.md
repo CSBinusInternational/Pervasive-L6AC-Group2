@@ -14,7 +14,7 @@ Computer Science Program
 BINUS International
 Jakarta
 
-![Pervasive Alarm Security System](Pervasive-L6AC-Group2/images/pass.JPG?raw=true "Pervasive Alarm Security System")
+![Pervasive Alarm Security System](images/pass.JPG)
  
  
 ## PROJECT DESCRIPTION
@@ -33,21 +33,13 @@ We will connect Raspberry Pi to Pi Noir camera, magnetic sensors, and the buzzer
 The components required for this project are as follows:
 
 1. Raspberry Pi 3 Model B x1
-![Raspberry Pi](Pervasive-L6AC-Group2/images/components/raspberry.JPG?raw=true "Raspberry Pi")
 2. Pi Noir Camera Version 2 x1
-![Camera](Pervasive-L6AC-Group2/images/components/camera.JPG?raw=true "Camera")
 3. Magnetic sensor x1
-![Sensor](Pervasive-L6AC-Group2/images/components/sensor.JPG?raw=true "Sensor")
 4. Buzzer (Model YL-44) x1
-![Buzzer](Pervasive-L6AC-Group2/images/components/buzzer.JPG?raw=true "Buzzer")
 5. Male to male cable jumpers (as needed)
-![Male to Male Cable Jumpers](Pervasive-L6AC-Group2/images/components/malemale.JPG?raw=true "Male to Male Cable Jumpers")
 6. Female to female cable jumpers (as needed)
-![Female to Female Cable Jumpers](Pervasive-L6AC-Group2/images/components/femalefemale.JPG?raw=true "Female to Female Cable Jumpers")
 7. HDMI (Male) to VGA (Female) converter cable (For setup) x1
-![Converter Cable](Pervasive-L6AC-Group2/images/components/converter.JPG?raw=true "Converter Cable")
 8. Raspberry Pi 3 Model B Case (Optional) x1
-![Case](Pervasive-L6AC-Group2/images/components/case.JPG?raw=true "Case")
 
  
 ## HOW DOES IT WORK? 
@@ -76,7 +68,7 @@ I/O on the YL-44 buzzer to GPIO17 pin 11 on the Raspberry Pi.
 GND on the YL-44 buzzer to Ground pin 6 on the Raspberry Pi.
  
 The design of this project is as follows:
-![Project Design](Pervasive-L6AC-Group2/images/components/Design.JPG?raw=true "Project Design")
+![Project Design](images/Design.jpg)
 
 PROJECT VIDEO
 https://drive.google.com/open?id=0B4CU1OXYBdK3SjBmTDNTRWZfbnc
@@ -120,7 +112,6 @@ Week 3
 For this week, I have gotten most of the parts needed for my team's final project for Pervasive Computing (which may change), and have connected the parts and learned the basic usage of the devices.
 From what I've gathered from the internet, the camera could not only store pictures, but also videos.
 Next Progress: Learning how to code using Python and how to operate the Raspberry Pi NOIR Camera using Python. Learn how to store videos into a server to be accessed by other devices.
-![Week 3](Pervasive-L6AC-Group2/images/progress/week 3.JPG?raw=true "Week 3")
 
 Week 4: Pivot - Changed project idea and specification, gather hardware
 Our team decided to change our final project idea because we think the new one will be more applicable and useful to have. The project will still use Raspberry Pi and Pi camera, but the scenario is different.
@@ -177,18 +168,14 @@ Goals (Same as week 5):
 Week 7
 After connecting our physical modules and implementing basic GPIO functions inside our code, we are currently working on getting the input from our vibration sensor. We have also successfully sent emails from the Raspberry Pi with attachments in them.
 For the next stage, we are going to complete the sensor implementation for our project and compile them into a single .py file.
-![Week 7](Pervasive-L6AC-Group2/images/progress/week 7.JPG?raw=true "Week 7")
  
 Week 8
 The sensor is changed to magnetic sensors, which consists of 2 separate small magnets. These magnets then will react and produce output based on changes of distance between them. The implementation of this change to our project is, when unexpected person comes and open the car door, this sensor will detect the change, snap a picture and send it to the car owner. We have successfully make the sensor to work by producing the expected output (The output is “CLOSE” if the magnets are attached to each other, and “OPEN” otherwise).
 The code is up on our group’s GitHub repository. Next, we are going to connect the camera module along with the sensor.
-![Week 8](Pervasive-L6AC-Group2/images/progress/week 8.JPG?raw=true "Week 8")
  
 Week 9
 We have been able to connect the sensor to camera module. What happens is when magnets of the magnetic sensor are far away from each other (Output: “OPEN”), the camera module will take a picture and save it in /pi directory.
 We compile and test the code in a single .py file for next use. Our next plan is to connect the buzzer to current “connected” modules (camera and sensor) so it will activate the sound feature.
-![Week 9](Pervasive-L6AC-Group2/images/progress/week 9.JPG?raw=true "Week 9")
-![Week 9-2](Pervasive-L6AC-Group2/images/progress/week 9-2.JPG?raw=true "Week 9-2")
 
 Week 10: We have finished the project.
 Problem found and covered during project development:
@@ -235,7 +222,6 @@ Target for next week:
 Week 3: Did research and gather hardware
 So far I have learned the basic usage of the devices, get all necessary hardware for my team's project, connect pi camera to raspberry and learn that it is better to stream surveillance video through browser rather than to store it entirely because it will take huge space of data storage. The surveillance system will act as security measure to monitor a place's condition. Some motion sensors can also be implemented in the system triggering some events like sending notification to computer and store pictures.
 For the goals, we will try the code to light up lamps and try to setup raspberry as webcam server to stream video through browser from raspberry.
-![Week 3](Pervasive-L6AC-Group2/images/progress/week 3.JPG?raw=true "Week 3")
 
 Week 4: Pivot - Changed project idea and specification, gather hardware
 Our team decided to change our final project idea because we think the new one will be more applicable and useful to have. The project will still use Raspberry Pi and Pi camera, but the scenario is different.
@@ -270,7 +256,6 @@ Progress:
 Goals for next week: 
 - Try to connect Raspberry with camera
 - Find a mock model to put the camera on/in
-![Week 4](Pervasive-L6AC-Group2/images/progress/week 4.JPG?raw=true "Week 4")
 
 Week 5 - Connect camera and add buzzer to project specification
 What have been done: 
@@ -293,18 +278,14 @@ Goals (Same as week 5):
 Week 7
 After connecting our physical modules and implementing basic GPIO functions inside our code, we are currently working on getting the input from our vibration sensor. We have also successfully sent emails from the Raspberry Pi with attachments in them.
 For the next stage, we are going to complete the sensor implementation for our project and compile them into a single .py file.
-![Week 7](Pervasive-L6AC-Group2/images/progress/week 7.JPG?raw=true "Week 7")
  
 Week 8
 The sensor is changed to magnetic sensors, which consists of 2 separate small magnets. These magnets then will react and produce output based on changes of distance between them. The implementation of this change to our project is, when unexpected person comes and open the car door, this sensor will detect the change, snap a picture and send it to the car owner. We have successfully make the sensor to work by producing the expected output (The output is “CLOSE” if the magnets are attached to each other, and “OPEN” otherwise).
 The code is up on our group’s GitHub repository. Next, we are going to connect the camera module along with the sensor.
-![Week 8](Pervasive-L6AC-Group2/images/progress/week 8.JPG?raw=true "Week 8")
  
 Week 9
 We have been able to connect the sensor to camera module. What happens is when magnets of the magnetic sensor are far away from each other (Output: “OPEN”), the camera module will take a picture and save it in /pi directory.
 We compile and test the code in a single .py file for next use. Our next plan is to connect the buzzer to current “connected” modules (camera and sensor) so it will activate the sound feature.
-![Week 9](Pervasive-L6AC-Group2/images/progress/week 9.JPG?raw=true "Week 9")
-![Week 9-2](Pervasive-L6AC-Group2/images/progress/week 9-2.JPG?raw=true "Week 9-2")
  
 Week 10
 Finally, finally the system is complete! We tried the modules one by one until we managed to connect them all into a single system. We have also compiled the test scripts for each individual module into a single python file. There were some errors happening at first trials (such as the buzzer sounds as soon as the Raspberry Pi is on, the sensors do not work as we would like it to be, and setting the camera position to be able to precisely capture a whole door’s image) but we managed to go through it all. I personally think that there are rooms for improvements that can be made to this project as we still learn, this project can *really* happen because of my team! Thanks and great job guys!
@@ -342,7 +323,6 @@ Matthew - Sensors
 Week 3
 We have gathered most of the parts needed for the team's final project in Pervasive Computing, and have connected the parts also learned the basic usage of the devices.
 Next progress: Learning on how to code and operate the Raspberry Pi NOIR Camera using Python.
-![Week 3](Pervasive-L6AC-Group2/images/progress/week 3.JPG?raw=true "Week 3")
 
 Week 4: Pivot - Changed project idea and specification, gather hardware
 Our team decided to change our final project idea because we think the new one will be more applicable and useful to have. The project will still use Raspberry Pi and Pi camera, but the scenario is different.
@@ -399,18 +379,14 @@ Goals (Same as week 5):
 Week 7
 After connecting our physical modules and implementing basic GPIO functions inside our code, we are currently working on getting the input from our vibration sensor. We have also successfully sent emails from the Raspberry Pi with attachments in them.
 For the next stage, we are going to complete the sensor implementation for our project and compile them into a single .py file.
-![Week 7](Pervasive-L6AC-Group2/images/progress/week 7.JPG?raw=true "Week 7")
  
 Week 8
 The sensor is changed to magnetic sensors, which consists of 2 separate small magnets. These magnets then will react and produce output based on changes of distance between them. The implementation of this change to our project is, when unexpected person comes and open the car door, this sensor will detect the change, snap a picture and send it to the car owner. We have successfully make the sensor to work by producing the expected output (The output is “CLOSE” if the magnets are attached to each other, and “OPEN” otherwise).
 The code is up on our group’s GitHub repository. Next, we are going to connect the camera module along with the sensor.
-![Week 8](Pervasive-L6AC-Group2/images/progress/week 8.JPG?raw=true "Week 8")
  
 Week 9
 We have been able to connect the sensor to camera module. What happens is when magnets of the magnetic sensor are far away from each other (Output: “OPEN”), the camera module will take a picture and save it in /pi directory.
 We compile and test the code in a single .py file for next use. Our next plan is to connect the buzzer to current “connected” modules (camera and sensor) so it will activate the sound feature.
-![Week 9](Pervasive-L6AC-Group2/images/progress/week 9.JPG?raw=true "Week 9")
-![Week 9-2](Pervasive-L6AC-Group2/images/progress/week 9-2.JPG?raw=true "Week 9-2")
  
 Week 10
 We have finished the project successfully, although there are problems during the implementation when we wanted to connect all the components, we solved them by doing more research and tweak the modules.
